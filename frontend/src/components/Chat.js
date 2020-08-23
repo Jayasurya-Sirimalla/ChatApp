@@ -9,7 +9,7 @@ import MessageInput from './MessageInput';
 import MessagesBlock from './MessagesBlock';
 
 let socket;
-const ENDPOINT = 'localhost:4000';
+const ENDPOINT = 'https://chat-app-jay.herokuapp.com/';
 
 const Chat = ({location}) => {
     const [name, setName] = useState('');
