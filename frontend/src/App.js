@@ -1,9 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Container, Paper, TextField, Button } from '@material-ui/core';
-import './App.css';
 import Chat from './components/Chat';
 import Join from './components/Join';
+import './App.css';
 
 function App() {
   return (

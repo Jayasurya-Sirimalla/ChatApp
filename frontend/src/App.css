@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(./aaa1.jpg);
+  background-image: url(./images/bluredBackground.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -47,7 +47,6 @@
     box-shadow: 1px 1px 10px black;
 }
 
-
 .message-sent{
   background: #4da6ff;
   border-radius: 20px;
@@ -69,12 +68,19 @@
   font-size: 1.1em;
   word-break: break-all;
 }
+
 .float-left{
   float: left;
 }
+
 .float-right{
   float: right;
 }
+
+.padding-right-10 {
+  padding-right: 0.3vw;
+}
+
 .message-container-sent {
   display: grid;
   justify-content: flex-end;
@@ -87,6 +93,7 @@
   padding: 0 5%;
   margin-top: 3px;
 }
+
 .message-text img {
   vertical-align: middle;
 }
@@ -95,10 +102,12 @@
   text-align: end;
   font-size: 14px;
 }
+
 .txt-align-start {
   text-align: start;
   font-size: 14px;
 }
+
 .color-white {
   color: white;
 }
